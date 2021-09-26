@@ -1,0 +1,91 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+#main-logo{
+    height: 40px;
+}
+#menu{
+    color: darkgray;
+    padding: 8px 10px 2px 4px;
+    font-size: 20px;
+}
+#menu:hover{
+    cursor: pointer;
+    color: black;
+    text-underline-position: below;
+    text-decoration:underline blue;
+    
+}
+#button-your-account{
+    background-color: #FFD8DB;
+    color: #A389CC;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+#body{
+    margin-top: 100px ;
+    display:flex;
+    flex-direction: row;
+}
+#left-side{
+    margin-left: 200px;
+}
+#button-up-down{
+    display: flex;
+    flex-direction: row;
+    justify-content:start
+}
+#new-acc{background-color: #5243C0;
+    color: #ffffff;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+
+}
+.items{
+    
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.img{
+    height: fit-content;
+    margin: 0px;
+}
+.dummy-1{
+    padding: 0px 20px;
+    background-color: pink;
+    border-radius: 10px;
+}
+.dummy-2{
+    padding: 0px 20px;
+    background-color: tomato;
+    border-radius: 10px;
+}
+.dummy-3{
+    padding: 0px 20px;
+    background-color:limegreen;
+    border-radius: 10px;
+}
+.dummy-4{
+    padding: 0px 20px;
+    background-color: sandybrown;
+    border-radius: 10px;
+}   
+    #lists{
+    background-color:#DAF2ED;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.items:hover{
+    background-color: #ffffff;
+    cursor: pointer;
+    
+}
